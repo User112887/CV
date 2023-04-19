@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>En the developer</title>
+    <meta name="description" content="My personal webpage as Enver Miftari">
+    <meta name="keywords" content="HTML, CSS, JavaScript, C#, Aspnet Core, MssqServer, CV, Personal website">
+    <meta name="author" content="Enver Miftari, en the developer, enthedeveloper">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    
+    <!-- Favicon -->
+    <link href="img/logo.png" rel="icon">
+
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet"> 
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+   
+    <script src="js/particles.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="51">
+    
+    <div class="cursor">
+    </div>
+
+    <!-- Navbar Start -->
+    <nav class="navbar fixed-top shadow-sm navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-lg-5">
+        <a href="index.html" class="navbar-brand ml-lg-3">
+            <h1 class="m-0 display-5"><span class="text-primary">En</span>TheDeveloper</h1>
+        </a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse px-lg-3" id="navbarCollapse">
+            <div class="navbar-nav m-auto py-0">
+                <a href="#home" class="nav-item nav-link active">Home</a>
+                <a href="#about" class="nav-item nav-link">About</a>
+                <a href="#qualification" class="nav-item nav-link">Quality</a>
+                <a href="#skill" class="nav-item nav-link">Skill</a>
+                <a href="#service" class="nav-item nav-link">Service</a>
+                <a href="#contact" class="nav-item nav-link">Contact</a>
+            </div>
+            <a href="mailto:envmiftari@gmail.com?subject=We have decided to work together" class="btn btn-outline-primary d-none d-lg-block important">Hire Me</a>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Header Start -->
+    <div class="container-fluid bg-primary d-flex align-items-center mb-5 py-5" id="home" style="min-height: 100vh;">
+        <div class="container" id="home-content" >
+            <div class="row align-items-center">
+                
+                <div class="col-lg-7 text-center text-lg-left">
+                    <h3 class="text-white font-weight-normal mb-3">Hi I'm</h3>
+                    <h1 class="display-3 text-uppercase mb-2 animate__bounceIn" style="color:transparent;-webkit-text-stroke: 2px #ffffff;">Enver Miftari</h1>
+                    <h1 class="typed-text-output d-inline font-weight-lighter text-white"></h1>
+                    <div class="typed-text d-none">Back End Developer, Front End Developer, Windows Developer, Android Developer, Ios Developer</div>
+                    <div class="d-flex align-items-center justify-content-center justify-content-lg-start pt-5">
+                        <a href="/resources/EnverMiftariCV.pdf" class="btn btn-outline-light mr-4 important">Download CV</a>
+                        <a class="btn btn-outline-light pulse-button link-button important bg-white" style="color:#343a40 !important" href="#about">More About Me</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="particles-js">
+           
+        </div>
+    </div>
+    <!-- Header End -->
+
+    <!-- About Start -->
+    <div class="container-fluid py-5" id="about">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">About</h1>
+                <h1 class="position-absolute text-uppercase text-primary">About Me</h1>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-5 pb-4 pb-lg-0">
+                    <img class="img-fluid rounded w-100" src="img/about.jpg" alt="">
+                </div>
+                <div class="col-lg-7">
+                        <h3 class="mb-4">Developer</h3>
+                        <p>As an aspiring developer, I started at the young age of 13 and immediately showed a natural talent for the craft. Even without formal training, I quickly became proficient in several programming languages and began creating my own applications. What made my creations stand out was that, without realizing it, I was using industry standards and best practices in my code. This ability to instinctively follow industry standards is a rare skill that sets me apart from my peers, even at such a young age. Over time, my dedication to programming and my natural talent allowed me to develop increasingly sophisticated applications. By the time I entered the workforce as a professional developer, I was already an accomplished coder with years of experience under my belt.</p>
+                        <div class="row mb-3">
+                            <div class="col-sm-6 py-2"><h6>Name: <span class="text-secondary">Enver Miftari</span></h6></div>
+                            <div class="col-sm-6 py-2"><h6>Birthday: <span class="text-secondary">24 October 2000</span></h6></div>
+                            <div class="col-sm-6 py-2"><h6>Degree: <span class="text-secondary">Bsc</span></h6></div>
+                            <div class="col-sm-6 py-2"><h6>Experience: <span class="text-secondary">3+ Years</span></h6></div>
+                            <div class="col-sm-6 py-2"><h6>Phone: <span class="text-secondary">045 814 398</span></h6></div>
+                            <div class="col-sm-6 py-2"><h6>Email: <span class="text-secondary">envmiftari@gmail.com</span></h6></div>
+                            <div class="col-sm-6 py-2"><h6>Address: <span class="text-secondary">10000 Besim Sahatqiu, Prishtine</span></h6></div>
+                            <div class="col-sm-6 py-2"><h6>Freelance: <span class="text-secondary">Available</span></h6></div>
+                        </div>
+                        <a href="mailto:envmiftari@gmail.com?subject=We have decided to work together" class="btn btn-outline-primary mr-4 important">Hire Me</a>
+                        <a class="btn btn-outline-primary link-button important" href="#skill">Check my abilities</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+    <!-- Qualification Start -->
+    <div class="container-fluid py-5" id="qualification">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Quality</h1>
+                <h1 class="position-absolute text-uppercase text-primary">Education & Expericence</h1>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h3 class="mb-4">Education</h3>
+                    <div class="border-left border-primary pt-2 pl-4 ml-2">
+                        <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                            <h5 class="font-weight-bold mb-1">High School</h5>
+                            <p class="mb-2"><strong>Hamez Jashari</strong> | <small>2015 - 2018</small></p>
+
+                            <p>
+                                In high school, I had a passion for programming that extended beyond the classroom. After school, I dedicated countless hours to learning programming and exploring new languages and techniques. My hard work and natural problem-solving skills set me apart from your peers and helped lay the foundation for my future as a programmer.
+                            </p>
+                            </div>
+                        <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                            <h5 class="font-weight-bold mb-1">Robotics</h5>
+                            <p class="mb-2"><strong>Fiek</strong> | <small>2018</small></p>
+
+                            <p>
+                                During my time at FIEK University, programming played a critical role in shaping my academic experience. I recognized the importance of mastering programming languages and techniques, and I took advantage of every opportunity to immerse myself in the world of programming.
+                            </p>
+                        </div>
+                        <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                            <h5 class="font-weight-bold mb-1">Mobile and cloud programing</h5>
+                            <p class="mb-2"><strong>Riinvest</strong> | <small>2019 - 2022</small></p>
+
+                            <p>
+                                At Riinvest University, my prior programming experience proved invaluable. I quickly excelled in programming-related subjects. My dedication and ability to apply my skills in an academic setting set me up for future success in the tech industry.
+                            </p>
+                            </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <h3 class="mb-4">Expericence</h3>
+                    <div class="border-left border-primary pt-2 pl-4 ml-2">
+                        <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                            <h5 class="font-weight-bold mb-1">Full-stack Developer</h5>
+                            <p class="mb-2"><strong>AS group</strong> | <small>2021 - 2023</small></p>
+                            <p>I used ASP.NET Core WebAPI and Angular as a Full Stack Developer to develop complex applications, integrating front-end and back-end seamlessly. My strong collaboration skills, attention to detail, and problem-solving abilities contributed significantly to the success of several projects.</p>
+                        </div>
+                        <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                            <h5 class="font-weight-bold mb-1">Windows Developer</h5>
+                            <p class="mb-2"><strong>AS group</strong> | <small>2021 - 2023</small></p>
+                            <p>While working as a full-stack developer, I was also a Windows developer. I used WPF, WinForms, and C++ to create intuitive desktop applications with efficient back-end functionalities.</p>
+                        </div>
+                        <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                            <h5 class="font-weight-bold mb-1">Android Developer</h5>
+                            <p class="mb-2"><strong>AS group</strong> | <small>2021 - 2023</small></p>
+                            <p>I worked as an Android developer using Java and Ionic, creating intuitive mobile apps with seamless functionality. I consistently delivered projects with accuracy and on time. </p>
+                        </div>
+
+                        <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                            <h5 class="font-weight-bold mb-1">Ios Developer</h5>
+                            <p class="mb-2"><strong>AS group</strong> | <small>2021 - 2023</small></p>
+                            <p>I worked as an iOS developer using Swift and Ionic to build clean, user-friendly mobile applications with robust functionality. </p>
+                        </div>
+
+                        <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                            <h5 class="font-weight-bold mb-1">Full Stack Developer</h5>
+                            <p class="mb-2"><strong>TreTek</strong> | <small>2022 - 2022</small></p>
+                            <p>I worked part-time as a full-stack developer using ASP.NET Core WebAPI and ASP.NET Core MVC. I didn't want to work with EF Core, but I had no other choice. Despite that, I was able to deliver quality work and contribute to the success of the project.</p>
+                        </div>
+
+                        <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                            <h5 class="font-weight-bold mb-1">Freelance</h5>
+                            <p class="mb-2"><strong>2016 - ∞</strong></p>
+                            <p>As a freelancer, I have a proven track record of delivering high-quality results with attention to detail and clear communication. My passion for my work and commitment to staying up-to-date with the latest trends make me an ideal choice for clients seeking a skilled, reliable freelancer.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Qualification End -->
+
+    <!-- Skill Start -->
+    <div class="container-fluid py-5" id="skill">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Skills</h1>
+                <h1 class="position-absolute text-uppercase text-primary">My Skills</h1>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">ANGULAR</h6>
+                            <h6 class="font-weight-bold">100%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-primary" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">C#</h6>
+                            <h6 class="font-weight-bold">100%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">SQL SERVER</h6>
+                            <h6 class="font-weight-bold">90%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">WPF/WINFORMS</h6>
+                            <h6 class="font-weight-bold">100%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-primary role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">JAVA</h6>
+                            <h6 class="font-weight-bold">70%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">TS/JS</h6>
+                            <h6 class="font-weight-bold">100%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">HTML/CSS</h6>
+                            <h6 class="font-weight-bold">100%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-dark" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">C++</h6>
+                            <h6 class="font-weight-bold">70%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-primary" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">IONIC</h6>
+                            <h6 class="font-weight-bold">100%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-warning role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">SWIFT</h6>
+                            <h6 class="font-weight-bold">70%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-dark" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Skill End -->
+
+    <!-- Services Start -->
+    <div class="container-fluid pt-5" id="service">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Service</h1>
+                <h1 class="position-absolute text-uppercase text-primary">My Services</h1>
+            </div>
+
+            <div class="row pb-3">
+                <div class="col-lg-6 mb-4">
+                <div class="card h-100 hidden">
+                    <div class="card-body skill-card">
+                        <div class="d-flex align-items-center justify-content-center mb-4">
+                            <i class="fa fa-2x fa-globe service-icon bg-primary mr-3"></i>
+                            <h4 class="m-0 card-title">Backend</h4>
+                        </div>
+                        <p class="card-text">
+                           I'm a skilled backend developer with expertise in ASP.NET Core and MS SQL Server, dedicated to crafting efficient code and delivering exceptional user experiences.
+                            </p>
+                        
+                        <div class="row pb-3 m-1">
+
+                                <button class="skill-item">
+                                    C#
+                                </button>
+                                <button class="skill-item">
+                                    .Net
+                                </button>
+                                <button class="skill-item">
+                                    .Net Core
+                                </button>
+                                <button class="skill-item">
+                                    ASP.NET
+                                </button>
+                                <button class="skill-item">
+                                    ASP.NET Core
+                                </button>
+                                <button class="skill-item">
+                                    MSSQL
+                                </button>
+                                <button class="skill-item">
+                                    PostgreSQL
+                                </button>
+                        </div>
+                        <a class="btn btn-primary bg-primary d-lg-block important" href="mailto:envmiftari@gmail.com?subject=Back End Applications">Let's talk about it</a>
+                    </div>
+                  </div>
+                </div>  
+                <div class="col-lg-6 mb-4">
+                  <div class="card h-100 hidden" >
+                    <div class="card-body skill-card">
+                     <div class="d-flex align-items-center justify-content-center mb-4">
+                        <i class="fa fa-2x fa-laptop-code service-icon bg-primary mr-3"></i>
+                        <h4 class="m-0 card-title">Frontend</h4>
+                     </div>
+                    
+                     <p class="card-text">I'm a talented front-end developer skilled in Angular and ASP.NET Core MVC, with a passion for creating dynamic user interfaces and delivering innovative solutions.</p>
+                      
+                      <div class="row pb-3 m-1">
+                        <button class="skill-item">
+                           HTML
+                        </button>
+                        <button class="skill-item">
+                            CSS
+                        </button>
+                        <button class="skill-item">
+                           SCSS
+                        </button>
+                        <button class="skill-item">
+                           JavaScript
+                        </button>
+                        <button class="skill-item">
+                            TypeScript
+                        </button>
+                        <button class="skill-item">
+                            Angular
+                        </button>
+                        <button class="skill-item">
+                            AspNet Core MVC
+                        </button>
+                        <button class="skill-item">
+                            AspNet Framework MVC
+                        </button>
+                    </div>
+
+                      <a class="btn btn-primary bg-primary d-lg-block important" href="mailto:envmiftari@gmail.com?subject=Front End Applications">Let's talk about it</a>
+                    </div>
+                  </div>
+                </div>
+            </div>  
+
+                <div class="row pb-3">
+                    <div class="col-lg-6 mb-4">
+                        <div class="card h-100 hidden">
+                          <div class="card-body skill-card">
+                             <div class="d-flex align-items-center justify-content-center mb-4">
+                              <i class="fab fa-2x fa-windows service-icon bg-primary mr-3"></i>
+                              <h4 class="m-0 card-title">Windows</h4>
+                          </div>
+                              <p class="card-text">
+                                 Expert in WinForms, WPF, and C++, I craft efficient code and seamless user experiences. My problem-solving skills and industry knowledge make me a valuable asset to any Windows development team.
+                              </p>
+                            
+                              <div class="row pb-3 m-1">
+                                  <button class="skill-item">
+                                     WPF
+                                  </button>
+                                  <button class="skill-item">
+                                      WINFORMS
+                                  </button>
+                                  <button class="skill-item">
+                                     C++
+                                  </button>
+                                  <button class="skill-item">
+                                     .NET Maui
+                                  </button>
+                          </div>
+      
+                              <a class="btn btn-primary bg-primary d-lg-block important" href="mailto:envmiftari@gmail.com?subject=Windows Applications">Let's talk about it</a>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-lg-6 mb-4">
+                        <div class="card h-100 hidden">
+                            <div class="card-body skill-card">
+                                 <div class="d-flex align-items-center justify-content-center mb-4">
+                                <i class="fab fa-2x fa-android service-icon bg-primary mr-3"></i>
+                                <h4 class="m-0 card-title">Android</h4>
+                            </div>
+                                <p class="card-text">As an Android developer with expertise in Ionic and a strong command of Java, I have a talent for creating dynamic mobile applications. I'm passionate about delivering innovative solutions that meet my clients' needs.</p>
+                                <div class="row pb-3 m-1">
+                                    <button class="skill-item">
+                                      Java
+                                    </button>
+                                    <button class="skill-item">
+                                        Ionic
+                                    </button>
+                                    <button class="skill-item">
+                                       .Net Maui
+                                    </button>
+                            </div>
+                                <a class="btn btn-primary bg-primary d-lg-block important" href="mailto:envmiftari@gmail.com?subject=Android Application">Let's talk about it</a>
+                            </div>
+                          </div>
+                        </div>
+                </div>
+            <div class="row pb-3">
+                <div class="col-lg-6 mb-4">
+                  <div class="card h-100 hidden">
+                    <div class="card-body skill-card">
+                       <div class="d-flex align-items-center justify-content-center mb-4">
+                        <i class="fab fa-2x fa-apple service-icon bg-primary mr-3"></i>
+                        <h4 class="m-0 card-title">Ios</h4>
+                    </div>
+                        <p class="card-text">As an iOS developer, I possess a specialized skill set that allows me to design, develop, and deploy high-quality mobile applications on Apple's iOS platform. I have a deep understanding of the iOS architecture, including the use of Swift.</p>
+
+                        <div class="row pb-3 m-1">
+                            <button class="skill-item">
+                              Swift
+                            </button>
+                            <button class="skill-item">
+                                Ionic
+                            </button>
+                            <button class="skill-item">
+                               .Net Maui
+                            </button>
+                        </div>
+                        <a class="btn btn-primary bg-primary d-lg-block important" href="mailto:envmiftari@gmail.com?subject=Ios Application">Let's talk about it</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 mb-4">
+                  <div class="card h-100 hidden">
+                    <div class="card-body skill-card">
+                        <div class="d-flex align-items-center justify-content-center mb-4">
+                            <i class="fab fa-2x fa-connectdevelop service-icon bg-primary mr-3"></i>
+                            <h4 class="m-0 card-title">Consulting</h4>
+                        </div>
+                        <p class="card-text">As a software consultant, I bring valuable expertise to organizations seeking to develop, implement, and optimize their software solutions. With my in-depth knowledge of software development processes and technologies, I help clients achieve their business goals through effective software strategies. My ability to propose innovative solutions makes me an invaluable asset to my clients.</p>
+                        <a class="btn btn-primary bg-primary d-lg-block important" href="mailto:envmiftari@gmail.com?subject=Consulting">Let's talk about it</a>
+                    </div>
+                  </div>
+                </div>
+            </div>  
+        </div>
+    </div>
+    <!-- Services End -->
+
+      <!-- Contact Start -->
+      <div class="container-fluid py-5" id="contact">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Contact</h1>
+                <h1 class="position-absolute text-uppercase text-primary">Contact Me</h1>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="contact-form text-center">
+                        <div id="success"></div>
+                        <form name="sentMessage" id="contactForm" novalidate="novalidate" autocomplete="off">
+                            <div class="form-row">
+                                <div class="control-group col-sm-6">
+                                    <input type="text" class="form-control p-4" id="name" name="from_name" placeholder="Your Name"
+                                        required="required" data-validation-required-message="Please enter your name" autocomplete="off"/>
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="control-group col-sm-6">
+                                    <input type="email" class="form-control p-4" name="email_id" id="email" placeholder="Your Email"
+                                        required="required" data-validation-required-message="Please enter your email" autocomplete="off"/>
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="control-group">
+                                <input type="text" class="form-control p-4" name="subject" id="subject" placeholder="Subject"
+                                    required="required" data-validation-required-message="Please enter a subject" autocomplete="off"/>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="control-group">
+                                <textarea class="form-control py-3 px-4 text-area" rows="5" id="message" placeholder="Message"
+                                    required="required"
+                                    name="message"
+                                    data-validation-required-message="Please enter your message"></textarea>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div>
+                                <button class="btn btn-outline-primary important" type="submit" id="sendMessageButton">Send
+                                    Message</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact End -->
+
+    <!-- Footer Start -->
+    <div id="footer" class="container-fluid bg-primary text-white mt-5 py-5 px-sm-3 px-md-5" >
+        <div id="particles-js-footer">
+           
+        </div>
+        <div class="container text-center py-2" id="footer-content">
+            <div class="d-flex justify-content-center mb-5">
+                <a class="btn btn-light btn-social mr-2" href="https://github.com/User112887"><i class="fab fa-github"></i></a>
+                <a class="btn btn-light btn-social mr-2" href="https://www.facebook.com/enver.miftaraj/"><i class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-light btn-social mr-2" href="https://www.linkedin.com/in/enver-miftari-63a332208/"><i class="fab fa-linkedin-in"></i></a>
+                <a class="btn btn-light btn-social mr-2" href="https://www.instagram.com/enmifttari/"><i class="fab fa-instagram"></i></a>
+            </div>
+        
+            <p class="m-0">&copy; <a class="text-white font-weight-bold" href="#">EN THE DEVELOPER</a>. All Rights Reserved. Developed by <a class="text-white font-weight-bold">Enver Miftari</a>
+            </p>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Scroll to Bottom -->
+    <i class="fa fa-2x fa-angle-down text-white scroll-to-bottom"></i>
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-outline-dark px-0 back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+ 
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/typed/typed.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>    
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+    
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    
+    <script type="text/javascript">
+        (function() {
+            emailjs.init('WKyXih8mSGw2gPvCs');
+        })();
+    </script>
+    
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+    
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    <script src="js/app.js"></script>
+
+    <script>
+        function isMobile(){
+            return navigator.userAgent.match(/Android/i)
+         || navigator.userAgent.match(/webOS/i)
+         || navigator.userAgent.match(/iPhone/i)
+         || navigator.userAgent.match(/iPad/i)
+         || navigator.userAgent.match(/iPod/i)
+         || navigator.userAgent.match(/BlackBerry/i)
+         || navigator.userAgent.match(/Windows Phone/i);
+        }
+
+         if (!isMobile()) {
+            var cursorScript = document.createElement('script');
+
+            cursorScript.src = "/js/cursor.js";
+
+            document.body.appendChild(cursorScript);
+        }
+</script>
+</body>
+</html>
